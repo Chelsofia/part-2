@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+     <section>
+        <div class="profile-card">
+            <div class="profile-image" data-testid="profilePicture">
+                <img src="./images/chel.jpg" alt="Rachel Asse, a passionate frontend developer" />
+            </div>
+            <div class="profile-content">
+                <h1 class="name" data-testid="fullName">Rachel Asse</h1>
+                <h2 class="job-title" data-testid="jobTitle">Frontend Developer</h2>
+                <p class="bio" data-testid="shortBio">I'm a passionate frontend developer who loves to challenge herself and deliver solutions. I love listening to music, watching movies, reading books, and coding.</p>
+                <div class="profile-details">
+                    <div class="detail-item">
+                        <i class="material-icons">&#xe0c8;</i>
+                        <span data-testid="currentLocation">Lagos, Nigeria</span>
+                    </div>
+                    <div class="detail-item">
+                        <i style="font-size:16px" class="fa">&#xf003;</i>
+                        <span data-testid="emailAddress">rachelasse01@gmail.com</span>
+                    </div>
+                    <div class="detail-item">
+                        <span data-testid="socialLinks">My social media links:</span>
+                        <div class="links"> <a href="https://github.com/chelsofia"> <i style="font-size:24px" class="fa">&#xf09b;</i></a>
+                        <a href="https://linkedin.com/in/rachel-asse"><i style="font-size:24px" class="fa">&#xf08c;</i></a></div>
+                       
+                        
+                       
+                    </div>
+                    <div class="detail-item">
+                        <i style="font-size:18px" class="fa">&#xf017;</i>
+                        <span data-testid="currentTimeUTC">Current time is
+                            <div id="currentTime"></div>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="wave-container">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none">
+                    <path fill="#172A3A" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,112C672,96,768,96,864,112C960,128,1056,160,1152,160C1248,160,1344,128,1392,112L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+                </svg>
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
